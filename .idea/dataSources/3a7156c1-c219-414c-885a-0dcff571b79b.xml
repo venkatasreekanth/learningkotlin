@@ -1,0 +1,1111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="datawarehouse dev">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.3">
+    <root id="1"/>
+    <schema id="2" parent="1" name="VENKATA_BHAGAVATULA">
+      <ObjectId>2564</ObjectId>
+      <IntrospectionTimestamp>2017-08-09.15:33:48</IntrospectionTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="OUTLN">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="DIP">
+      <ObjectId>14</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="ORACLE_OCM">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="DBSNMP">
+      <ObjectId>30</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="APPQOSSYS">
+      <ObjectId>31</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="WMSYS">
+      <ObjectId>32</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="XDB">
+      <ObjectId>43</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="ANONYMOUS">
+      <ObjectId>44</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="OLAPSYS">
+      <ObjectId>52</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="MSTR_DATA">
+      <ObjectId>57</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="DKCDBA">
+      <ObjectId>58</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="RDB_MAIN">
+      <ObjectId>59</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="BATCH_MAIN">
+      <ObjectId>60</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="DBO_CIC_MAIN">
+      <ObjectId>61</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="DBO_PS_MAIN">
+      <ObjectId>63</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="DBO_SA_MAIN">
+      <ObjectId>64</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="DBO_WHS_MAIN">
+      <ObjectId>65</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="DBO_XF_MAIN">
+      <ObjectId>66</ObjectId>
+      <IntrospectionTimestamp>2017-08-10.13:23:29</IntrospectionTimestamp>
+      <CreatedTimestamp>2013-04-13.19:52:29</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-07.15:20:17</ModifiedTimestamp>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="24" parent="1" name="ORACAPT">
+      <ObjectId>68</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="SE_MAIN">
+      <ObjectId>69</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="WHS_MAIN">
+      <ObjectId>70</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="FEDEX_MAIN">
+      <ObjectId>71</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="STG_MAIN">
+      <ObjectId>72</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="RDB_DW_MAIN">
+      <ObjectId>73</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="IDA_MAIN">
+      <ObjectId>74</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="TRILLIUM_MAIN">
+      <ObjectId>75</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="TECH_STATS_MAIN">
+      <ObjectId>76</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="RDB_AR_ROLLOFF_MAIN">
+      <ObjectId>77</ObjectId>
+    </schema>
+    <schema id="34" parent="1" name="IN_PART_AUDIT_MAIN">
+      <ObjectId>78</ObjectId>
+    </schema>
+    <schema id="35" parent="1" name="BRYAN_MORRISON">
+      <ObjectId>79</ObjectId>
+    </schema>
+    <schema id="36" parent="1" name="CHRIS_KRAMER">
+      <ObjectId>80</ObjectId>
+    </schema>
+    <schema id="37" parent="1" name="MARYJO_BURGDORF">
+      <ObjectId>84</ObjectId>
+    </schema>
+    <schema id="38" parent="1" name="MICHELLE_BROADRICK">
+      <ObjectId>85</ObjectId>
+    </schema>
+    <schema id="39" parent="1" name="MISSY_HELGESON">
+      <ObjectId>86</ObjectId>
+    </schema>
+    <schema id="40" parent="1" name="PAT_BRICKSON">
+      <ObjectId>87</ObjectId>
+    </schema>
+    <schema id="41" parent="1" name="TRACY_HOGLIN">
+      <ObjectId>88</ObjectId>
+    </schema>
+    <schema id="42" parent="1" name="BEN_CHRISTIAN">
+      <ObjectId>89</ObjectId>
+    </schema>
+    <schema id="43" parent="1" name="CURT_HUOT">
+      <ObjectId>90</ObjectId>
+    </schema>
+    <schema id="44" parent="1" name="DAVE_ODETTE">
+      <ObjectId>91</ObjectId>
+    </schema>
+    <schema id="45" parent="1" name="RYAN_VOIGT">
+      <ObjectId>92</ObjectId>
+    </schema>
+    <schema id="46" parent="1" name="STEVE_CHAMPAGNE">
+      <ObjectId>93</ObjectId>
+    </schema>
+    <schema id="47" parent="1" name="BACKUP_ADMIN">
+      <ObjectId>94</ObjectId>
+    </schema>
+    <schema id="48" parent="1" name="MTS_DATA">
+      <ObjectId>96</ObjectId>
+    </schema>
+    <schema id="49" parent="1" name="LOTUS_MAIN">
+      <ObjectId>97</ObjectId>
+    </schema>
+    <schema id="50" parent="1" name="TIM_FULTZ">
+      <ObjectId>98</ObjectId>
+    </schema>
+    <schema id="51" parent="1" name="ADB_MAIN">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="52" parent="1" name="WARREN_KALSOW">
+      <ObjectId>102</ObjectId>
+    </schema>
+    <schema id="53" parent="1" name="CMS_MAIN">
+      <ObjectId>103</ObjectId>
+    </schema>
+    <schema id="54" parent="1" name="BT_DW_RPT_MAIN">
+      <ObjectId>104</ObjectId>
+    </schema>
+    <schema id="55" parent="1" name="RDB_MONITOR_MAIN">
+      <ObjectId>105</ObjectId>
+    </schema>
+    <schema id="56" parent="1" name="DAVID_DOUCETTE">
+      <ObjectId>106</ObjectId>
+    </schema>
+    <schema id="57" parent="1" name="SAM_LANE">
+      <ObjectId>107</ObjectId>
+    </schema>
+    <schema id="58" parent="1" name="ABHINAY_CHADA">
+      <ObjectId>108</ObjectId>
+    </schema>
+    <schema id="59" parent="1" name="SUPPLIER_MAIN">
+      <ObjectId>109</ObjectId>
+    </schema>
+    <schema id="60" parent="1" name="PART_MAIN">
+      <ObjectId>110</ObjectId>
+    </schema>
+    <schema id="61" parent="1" name="KLARA_HRIBKOVA">
+      <ObjectId>111</ObjectId>
+    </schema>
+    <schema id="62" parent="1" name="KIMBERLEE_FISCHER">
+      <ObjectId>113</ObjectId>
+    </schema>
+    <schema id="63" parent="1" name="WEBCRAWL_MAIN">
+      <ObjectId>115</ObjectId>
+    </schema>
+    <schema id="64" parent="1" name="NATE_DAHLIN">
+      <ObjectId>116</ObjectId>
+    </schema>
+    <schema id="65" parent="1" name="NICK_AKERS">
+      <ObjectId>117</ObjectId>
+    </schema>
+    <schema id="66" parent="1" name="ORDERING_USER">
+      <ObjectId>118</ObjectId>
+    </schema>
+    <schema id="67" parent="1" name="PRICING_MAIN">
+      <ObjectId>119</ObjectId>
+    </schema>
+    <schema id="68" parent="1" name="SRINIVAS_BARAMA">
+      <ObjectId>122</ObjectId>
+    </schema>
+    <schema id="69" parent="1" name="MDATA_APP">
+      <ObjectId>123</ObjectId>
+    </schema>
+    <schema id="70" parent="1" name="DEB_GERBER">
+      <ObjectId>124</ObjectId>
+    </schema>
+    <schema id="71" parent="1" name="YAOWEN">
+      <ObjectId>125</ObjectId>
+    </schema>
+    <schema id="72" parent="1" name="MATT_BUDISH">
+      <ObjectId>126</ObjectId>
+    </schema>
+    <schema id="73" parent="1" name="LIVEPERSON_MAIN">
+      <ObjectId>127</ObjectId>
+    </schema>
+    <schema id="74" parent="1" name="PW_MAIN">
+      <ObjectId>128</ObjectId>
+    </schema>
+    <schema id="75" parent="1" name="DIGIKNOW_MAIN">
+      <ObjectId>129</ObjectId>
+    </schema>
+    <schema id="76" parent="1" name="BCS_USER">
+      <ObjectId>130</ObjectId>
+    </schema>
+    <schema id="77" parent="1" name="RDB_ML_CUR_MAIN">
+      <ObjectId>131</ObjectId>
+    </schema>
+    <schema id="78" parent="1" name="RBC_MAIN">
+      <ObjectId>133</ObjectId>
+      <IntrospectionTimestamp>2017-08-10.13:24:06</IntrospectionTimestamp>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="79" parent="1" name="PARAMIT_MAIN">
+      <ObjectId>134</ObjectId>
+    </schema>
+    <schema id="80" parent="1" name="FLATFILE_MAIN">
+      <ObjectId>135</ObjectId>
+    </schema>
+    <schema id="81" parent="1" name="SURESH">
+      <ObjectId>136</ObjectId>
+    </schema>
+    <schema id="82" parent="1" name="BERT_WEISSE">
+      <ObjectId>138</ObjectId>
+    </schema>
+    <schema id="83" parent="1" name="CHASE_MYERS">
+      <ObjectId>139</ObjectId>
+    </schema>
+    <schema id="84" parent="1" name="TYLER_HANSON">
+      <ObjectId>140</ObjectId>
+    </schema>
+    <schema id="85" parent="1" name="CARA_PESTER">
+      <ObjectId>141</ObjectId>
+    </schema>
+    <schema id="86" parent="1" name="SEARCH_PREP_USER">
+      <ObjectId>143</ObjectId>
+    </schema>
+    <schema id="87" parent="1" name="TEAL_DERHEIM">
+      <ObjectId>144</ObjectId>
+    </schema>
+    <schema id="88" parent="1" name="ATMEL_MAIN">
+      <ObjectId>145</ObjectId>
+    </schema>
+    <schema id="89" parent="1" name="TI_MAIN">
+      <ObjectId>146</ObjectId>
+    </schema>
+    <schema id="90" parent="1" name="REACH_MAIN">
+      <ObjectId>147</ObjectId>
+    </schema>
+    <schema id="91" parent="1" name="DBO_TD_MAIN">
+      <ObjectId>148</ObjectId>
+    </schema>
+    <schema id="92" parent="1" name="PAULA_FANFULIK">
+      <ObjectId>150</ObjectId>
+    </schema>
+    <schema id="93" parent="1" name="TIM_MAAS">
+      <ObjectId>152</ObjectId>
+    </schema>
+    <schema id="94" parent="1" name="FRED_TORMALA">
+      <ObjectId>153</ObjectId>
+    </schema>
+    <schema id="95" parent="1" name="PRODUCT_SERVICE">
+      <ObjectId>154</ObjectId>
+    </schema>
+    <schema id="96" parent="1" name="NICHOLAS_OMANN">
+      <ObjectId>155</ObjectId>
+    </schema>
+    <schema id="97" parent="1" name="DBO_TS_MAIN">
+      <ObjectId>156</ObjectId>
+    </schema>
+    <schema id="98" parent="1" name="SHAHIN_BEIGLARI">
+      <ObjectId>158</ObjectId>
+    </schema>
+    <schema id="99" parent="1" name="FTB_MAIN">
+      <ObjectId>159</ObjectId>
+    </schema>
+    <schema id="100" parent="1" name="KELLY_HANSON">
+      <ObjectId>160</ObjectId>
+    </schema>
+    <schema id="101" parent="1" name="SPOT_DATA">
+      <ObjectId>162</ObjectId>
+    </schema>
+    <schema id="102" parent="1" name="CHD_DATA">
+      <ObjectId>163</ObjectId>
+    </schema>
+    <schema id="103" parent="1" name="NATHAN_MALOVRH">
+      <ObjectId>164</ObjectId>
+    </schema>
+    <schema id="104" parent="1" name="TECHDESK_MAIN">
+      <ObjectId>165</ObjectId>
+    </schema>
+    <schema id="105" parent="1" name="KIRAN_KOLAVI">
+      <ObjectId>166</ObjectId>
+    </schema>
+    <schema id="106" parent="1" name="CUBE_TEST">
+      <ObjectId>167</ObjectId>
+    </schema>
+    <schema id="107" parent="1" name="TIBCO_USER">
+      <ObjectId>168</ObjectId>
+    </schema>
+    <schema id="108" parent="1" name="SEAN_JOHNSON">
+      <ObjectId>170</ObjectId>
+    </schema>
+    <schema id="109" parent="1" name="RYAN_ROGALLA">
+      <ObjectId>330</ObjectId>
+    </schema>
+    <schema id="110" parent="1" name="WEB_CONTENT_MAIN">
+      <ObjectId>331</ObjectId>
+    </schema>
+    <schema id="111" parent="1" name="EXPUSER">
+      <ObjectId>336</ObjectId>
+    </schema>
+    <schema id="112" parent="1" name="SHAHIN">
+      <ObjectId>338</ObjectId>
+    </schema>
+    <schema id="113" parent="1" name="SHARE_POINT_USER">
+      <ObjectId>340</ObjectId>
+    </schema>
+    <schema id="114" parent="1" name="RUSSELL_ZAVISKA">
+      <ObjectId>342</ObjectId>
+    </schema>
+    <schema id="115" parent="1" name="DBO_WEB_MAIN">
+      <ObjectId>343</ObjectId>
+    </schema>
+    <schema id="116" parent="1" name="WEB_MONITOR_MAIN">
+      <ObjectId>349</ObjectId>
+    </schema>
+    <schema id="117" parent="1" name="LP_MAIN">
+      <ObjectId>351</ObjectId>
+    </schema>
+    <schema id="118" parent="1" name="JON_BURNISON">
+      <ObjectId>356</ObjectId>
+    </schema>
+    <schema id="119" parent="1" name="PRODUCT_SERVICE_USER">
+      <ObjectId>525</ObjectId>
+    </schema>
+    <schema id="120" parent="1" name="DBO_FORMS_MAIN">
+      <ObjectId>526</ObjectId>
+    </schema>
+    <schema id="121" parent="1" name="TREVOR_BRENNAN">
+      <ObjectId>531</ObjectId>
+    </schema>
+    <schema id="122" parent="1" name="GIANCARLO_RUSSILLO">
+      <ObjectId>534</ObjectId>
+    </schema>
+    <schema id="123" parent="1" name="JEFFREY_WESTPHAL">
+      <ObjectId>535</ObjectId>
+    </schema>
+    <schema id="124" parent="1" name="PRADIP_MODAK">
+      <ObjectId>536</ObjectId>
+    </schema>
+    <schema id="125" parent="1" name="DBO_PICKTRACKER_MAIN">
+      <ObjectId>552</ObjectId>
+    </schema>
+    <schema id="126" parent="1" name="ADAM_BRILLHART">
+      <ObjectId>559</ObjectId>
+    </schema>
+    <schema id="127" parent="1" name="SSIS_USER">
+      <ObjectId>560</ObjectId>
+    </schema>
+    <schema id="128" parent="1" name="SAS_USER">
+      <ObjectId>575</ObjectId>
+    </schema>
+    <schema id="129" parent="1" name="SHAWN_LARSON">
+      <ObjectId>577</ObjectId>
+    </schema>
+    <schema id="130" parent="1" name="WEB_SERVICES_MAIN">
+      <ObjectId>578</ObjectId>
+    </schema>
+    <schema id="131" parent="1" name="DBO_WEB_SERVICES_MAIN">
+      <ObjectId>582</ObjectId>
+    </schema>
+    <schema id="132" parent="1" name="BEN_HEST">
+      <ObjectId>586</ObjectId>
+    </schema>
+    <schema id="133" parent="1" name="SUDAN_MAHARJAN">
+      <ObjectId>587</ObjectId>
+    </schema>
+    <schema id="134" parent="1" name="KYLE_JADEKE">
+      <ObjectId>589</ObjectId>
+    </schema>
+    <schema id="135" parent="1" name="GLORIA_NORBY">
+      <ObjectId>590</ObjectId>
+    </schema>
+    <schema id="136" parent="1" name="DBO_KRONOS_MAIN">
+      <ObjectId>595</ObjectId>
+    </schema>
+    <schema id="137" parent="1" name="RANDY_JONAS">
+      <ObjectId>596</ObjectId>
+    </schema>
+    <schema id="138" parent="1" name="JOE_MCINTYRE">
+      <ObjectId>597</ObjectId>
+    </schema>
+    <schema id="139" parent="1" name="MOLEX_MAIN">
+      <ObjectId>603</ObjectId>
+    </schema>
+    <schema id="140" parent="1" name="KURT_WISETH">
+      <ObjectId>607</ObjectId>
+    </schema>
+    <schema id="141" parent="1" name="EXCHANGE_EMAIL_MAIN">
+      <ObjectId>608</ObjectId>
+    </schema>
+    <schema id="142" parent="1" name="MIKE_KENNON">
+      <ObjectId>613</ObjectId>
+    </schema>
+    <schema id="143" parent="1" name="REID_SJAAHEIM">
+      <ObjectId>614</ObjectId>
+    </schema>
+    <schema id="144" parent="1" name="STEVE_GARDINER">
+      <ObjectId>615</ObjectId>
+    </schema>
+    <schema id="145" parent="1" name="BATCH_MAIN_RO">
+      <ObjectId>617</ObjectId>
+    </schema>
+    <schema id="146" parent="1" name="WINDECS_USER">
+      <ObjectId>630</ObjectId>
+    </schema>
+    <schema id="147" parent="1" name="SITECORE_MAIN">
+      <ObjectId>636</ObjectId>
+    </schema>
+    <schema id="148" parent="1" name="HEATHER_SCHMITT">
+      <ObjectId>644</ObjectId>
+    </schema>
+    <schema id="149" parent="1" name="DILLON_CARLSON">
+      <ObjectId>645</ObjectId>
+    </schema>
+    <schema id="150" parent="1" name="HEIDI_LARSON">
+      <ObjectId>646</ObjectId>
+    </schema>
+    <schema id="151" parent="1" name="AMBER_JOHNSON">
+      <ObjectId>647</ObjectId>
+    </schema>
+    <schema id="152" parent="1" name="BRENDA_PAQUIN">
+      <ObjectId>648</ObjectId>
+    </schema>
+    <schema id="153" parent="1" name="NANCY_LACROIX">
+      <ObjectId>649</ObjectId>
+    </schema>
+    <schema id="154" parent="1" name="SHEILA_BABIN">
+      <ObjectId>650</ObjectId>
+    </schema>
+    <schema id="155" parent="1" name="MERKLE_MAIN">
+      <ObjectId>652</ObjectId>
+    </schema>
+    <schema id="156" parent="1" name="JORDAN_STANFIELD">
+      <ObjectId>659</ObjectId>
+    </schema>
+    <schema id="157" parent="1" name="KELSEY_DZIENGEL">
+      <ObjectId>664</ObjectId>
+    </schema>
+    <schema id="158" parent="1" name="RHONDA_FERBER">
+      <ObjectId>665</ObjectId>
+    </schema>
+    <schema id="159" parent="1" name="MERKLE_REPORTING_MAIN">
+      <ObjectId>702</ObjectId>
+    </schema>
+    <schema id="160" parent="1" name="ATTUNITY">
+      <ObjectId>714</ObjectId>
+    </schema>
+    <schema id="161" parent="1" name="MISSY_CORNELIUSEN">
+      <ObjectId>744</ObjectId>
+    </schema>
+    <schema id="162" parent="1" name="TE_MAIN">
+      <ObjectId>748</ObjectId>
+    </schema>
+    <schema id="163" parent="1" name="FORMS_MAIN">
+      <ObjectId>774</ObjectId>
+    </schema>
+    <schema id="164" parent="1" name="JARED_PETERSON">
+      <ObjectId>786</ObjectId>
+    </schema>
+    <schema id="165" parent="1" name="BEN_LOFGREN">
+      <ObjectId>787</ObjectId>
+    </schema>
+    <schema id="166" parent="1" name="DBO_CIC3_MAIN">
+      <ObjectId>789</ObjectId>
+    </schema>
+    <schema id="167" parent="1" name="DARRIN_WEGGE">
+      <ObjectId>796</ObjectId>
+    </schema>
+    <schema id="168" parent="1" name="TABLEAU_DATA">
+      <ObjectId>801</ObjectId>
+    </schema>
+    <schema id="169" parent="1" name="AUTOMOD_MAIN">
+      <ObjectId>809</ObjectId>
+    </schema>
+    <schema id="170" parent="1" name="MARK_BERNO">
+      <ObjectId>820</ObjectId>
+    </schema>
+    <schema id="171" parent="1" name="SPOTFIRE_MAIN">
+      <ObjectId>847</ObjectId>
+    </schema>
+    <schema id="172" parent="1" name="MSTR_STAT_MAIN">
+      <ObjectId>848</ObjectId>
+    </schema>
+    <schema id="173" parent="1" name="TYLER_VERBOUT">
+      <ObjectId>852</ObjectId>
+    </schema>
+    <schema id="174" parent="1" name="WEBTRENDS_MAIN">
+      <ObjectId>853</ObjectId>
+    </schema>
+    <schema id="175" parent="1" name="ANDREW_ENGESSER">
+      <ObjectId>855</ObjectId>
+    </schema>
+    <schema id="176" parent="1" name="LEAH_BOTHUM">
+      <ObjectId>864</ObjectId>
+    </schema>
+    <schema id="177" parent="1" name="RANDALL_HOWATT">
+      <ObjectId>865</ObjectId>
+    </schema>
+    <schema id="178" parent="1" name="DS_MAIN">
+      <ObjectId>868</ObjectId>
+    </schema>
+    <schema id="179" parent="1" name="ZACHARY_BRADFORD">
+      <ObjectId>869</ObjectId>
+    </schema>
+    <schema id="180" parent="1" name="TYLER_SHIFFLETT">
+      <ObjectId>870</ObjectId>
+    </schema>
+    <schema id="181" parent="1" name="BRIAN_BERG">
+      <ObjectId>871</ObjectId>
+    </schema>
+    <schema id="182" parent="1" name="RMB_SYNC">
+      <ObjectId>875</ObjectId>
+    </schema>
+    <schema id="183" parent="1" name="AUDSYS">
+      <ObjectId>879</ObjectId>
+    </schema>
+    <schema id="184" parent="1" name="GSMADMIN_INTERNAL">
+      <ObjectId>880</ObjectId>
+    </schema>
+    <schema id="185" parent="1" name="GSMUSER">
+      <ObjectId>884</ObjectId>
+    </schema>
+    <schema id="186" parent="1" name="GSMCATUSER">
+      <ObjectId>897</ObjectId>
+    </schema>
+    <schema id="187" parent="1" name="OJVMSYS">
+      <ObjectId>898</ObjectId>
+    </schema>
+    <schema id="188" parent="1" name="CTXSYS">
+      <ObjectId>900</ObjectId>
+    </schema>
+    <schema id="189" parent="1" name="TEST_MSTR_DATA">
+      <ObjectId>904</ObjectId>
+    </schema>
+    <schema id="190" parent="1" name="TEST_IDA_MAIN">
+      <ObjectId>906</ObjectId>
+    </schema>
+    <schema id="191" parent="1" name="PDC_MAIN">
+      <ObjectId>909</ObjectId>
+    </schema>
+    <schema id="192" parent="1" name="GEO_MAIN">
+      <ObjectId>912</ObjectId>
+    </schema>
+    <schema id="193" parent="1" name="MARK_JANSSEN">
+      <ObjectId>913</ObjectId>
+    </schema>
+    <schema id="194" parent="1" name="JESSE_SCHWARZ">
+      <ObjectId>914</ObjectId>
+    </schema>
+    <schema id="195" parent="1" name="DEREK_JACOBS">
+      <ObjectId>915</ObjectId>
+    </schema>
+    <schema id="196" parent="1" name="LANCE_CHRISTIANSON">
+      <ObjectId>924</ObjectId>
+    </schema>
+    <schema id="197" parent="1" name="ALICIA_TARAY">
+      <ObjectId>956</ObjectId>
+    </schema>
+    <schema id="198" parent="1" name="PATRICK_FOOR">
+      <ObjectId>960</ObjectId>
+    </schema>
+    <schema id="199" parent="1" name="ILO">
+      <ObjectId>982</ObjectId>
+    </schema>
+    <schema id="200" parent="1" name="DAVID_GARDINER">
+      <ObjectId>1015</ObjectId>
+    </schema>
+    <schema id="201" parent="1" name="PETER_WORDEN">
+      <ObjectId>1046</ObjectId>
+    </schema>
+    <schema id="202" parent="1" name="GOPAL_NARAYAN">
+      <ObjectId>1054</ObjectId>
+    </schema>
+    <schema id="203" parent="1" name="ISIGHT_MAIN">
+      <ObjectId>1086</ObjectId>
+    </schema>
+    <schema id="204" parent="1" name="BRUCE_BOELTER">
+      <ObjectId>1202</ObjectId>
+    </schema>
+    <schema id="205" parent="1" name="DBO_IPICK_MAIN">
+      <ObjectId>1232</ObjectId>
+    </schema>
+    <schema id="206" parent="1" name="PROS_MAIN">
+      <ObjectId>1339</ObjectId>
+    </schema>
+    <schema id="207" parent="1" name="SATHYA_VASUDEVAN">
+      <ObjectId>1346</ObjectId>
+    </schema>
+    <schema id="208" parent="1" name="IDA_MAIN_KEEP">
+      <ObjectId>1393</ObjectId>
+    </schema>
+    <schema id="209" parent="1" name="ATTUNITY_DATA_3">
+      <ObjectId>1428</ObjectId>
+    </schema>
+    <schema id="210" parent="1" name="ERIK_RANDALL">
+      <ObjectId>1496</ObjectId>
+    </schema>
+    <schema id="211" parent="1" name="MY_NGUYEN">
+      <ObjectId>1520</ObjectId>
+    </schema>
+    <schema id="212" parent="1" name="SON_DANG">
+      <ObjectId>1521</ObjectId>
+    </schema>
+    <schema id="213" parent="1" name="DUY_TRAN">
+      <ObjectId>1522</ObjectId>
+    </schema>
+    <schema id="214" parent="1" name="TUNG_NGUYEN">
+      <ObjectId>1523</ObjectId>
+    </schema>
+    <schema id="215" parent="1" name="THANH_LE">
+      <ObjectId>1524</ObjectId>
+    </schema>
+    <schema id="216" parent="1" name="LAM_DOAN">
+      <ObjectId>1537</ObjectId>
+    </schema>
+    <schema id="217" parent="1" name="TRI_TON">
+      <ObjectId>1538</ObjectId>
+    </schema>
+    <schema id="218" parent="1" name="MAO_NGUYEN">
+      <ObjectId>1539</ObjectId>
+    </schema>
+    <schema id="219" parent="1" name="PHI_NGUYEN">
+      <ObjectId>1540</ObjectId>
+    </schema>
+    <schema id="220" parent="1" name="CU_HOANG">
+      <ObjectId>1541</ObjectId>
+    </schema>
+    <schema id="221" parent="1" name="NGHIA_LUU">
+      <ObjectId>1567</ObjectId>
+    </schema>
+    <schema id="222" parent="1" name="MINH_PHAN">
+      <ObjectId>1578</ObjectId>
+    </schema>
+    <schema id="223" parent="1" name="ANH_HO">
+      <ObjectId>1579</ObjectId>
+    </schema>
+    <schema id="224" parent="1" name="THIEN_NGUYEN">
+      <ObjectId>1580</ObjectId>
+    </schema>
+    <schema id="225" parent="1" name="TUAN_DOAN">
+      <ObjectId>1581</ObjectId>
+    </schema>
+    <schema id="226" parent="1" name="HOANG_NGUYEN">
+      <ObjectId>1582</ObjectId>
+    </schema>
+    <schema id="227" parent="1" name="RAUSER">
+      <ObjectId>1638</ObjectId>
+    </schema>
+    <schema id="228" parent="1" name="ERP_USER">
+      <ObjectId>1649</ObjectId>
+    </schema>
+    <schema id="229" parent="1" name="GGADMIN">
+      <ObjectId>1673</ObjectId>
+    </schema>
+    <schema id="230" parent="1" name="RDB_MAIN_GG">
+      <ObjectId>1674</ObjectId>
+    </schema>
+    <schema id="231" parent="1" name="BI_IDA_MAIN">
+      <ObjectId>1765</ObjectId>
+    </schema>
+    <schema id="232" parent="1" name="CORPORATE_RESEARCH_USER">
+      <ObjectId>1791</ObjectId>
+    </schema>
+    <schema id="233" parent="1" name="TRAVIS_HENSRUD">
+      <ObjectId>1884</ObjectId>
+    </schema>
+    <schema id="234" parent="1" name="SAS_MAIN">
+      <ObjectId>1961</ObjectId>
+    </schema>
+    <schema id="235" parent="1" name="MIKE_PEARSON">
+      <ObjectId>1992</ObjectId>
+    </schema>
+    <schema id="236" parent="1" name="SAS_BATCH_USER">
+      <ObjectId>2024</ObjectId>
+    </schema>
+    <schema id="237" parent="1" name="SPOTFIRE_MAIN_GG">
+      <ObjectId>2073</ObjectId>
+    </schema>
+    <schema id="238" parent="1" name="MSTR_STAT_MAIN_GG">
+      <ObjectId>2074</ObjectId>
+    </schema>
+    <schema id="239" parent="1" name="BRIAN_GOSLINGA">
+      <ObjectId>2237</ObjectId>
+    </schema>
+    <schema id="240" parent="1" name="JEFFREY_WERNER">
+      <ObjectId>2238</ObjectId>
+    </schema>
+    <schema id="241" parent="1" name="LAM_TRAN">
+      <ObjectId>2253</ObjectId>
+    </schema>
+    <schema id="242" parent="1" name="JAGADISH_KOTAGIRI">
+      <ObjectId>2369</ObjectId>
+    </schema>
+    <schema id="243" parent="1" name="DBO_PICK_MAIN">
+      <ObjectId>2403</ObjectId>
+    </schema>
+    <schema id="244" parent="1" name="JULIAN_REYTEL">
+      <ObjectId>2563</ObjectId>
+    </schema>
+    <schema id="245" parent="1" name="SYSBACKUP">
+      <ObjectId>2147483617</ObjectId>
+    </schema>
+    <schema id="246" parent="1" name="SYSDG">
+      <ObjectId>2147483618</ObjectId>
+    </schema>
+    <schema id="247" parent="1" name="SYSKM">
+      <ObjectId>2147483619</ObjectId>
+    </schema>
+    <schema id="248" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <table id="249" parent="23" name="XREF_LINKS">
+      <ObjectId>76627</ObjectId>
+      <CreatedTimestamp>2013-04-13.19:52:29</CreatedTimestamp>
+      <ModifiedTimestamp>2014-12-31.10:05:14</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="250" parent="23" name="XREF_PARTS">
+      <ObjectId>76629</ObjectId>
+      <CreatedTimestamp>2013-04-13.19:52:29</CreatedTimestamp>
+      <ModifiedTimestamp>2014-12-31.10:05:14</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="251" parent="23" name="XREF_SERIES">
+      <ObjectId>76625</ObjectId>
+      <CreatedTimestamp>2013-04-13.19:52:29</CreatedTimestamp>
+      <ModifiedTimestamp>2014-12-31.10:05:15</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="252" parent="23" name="XREF_TYPES">
+      <ObjectId>76626</ObjectId>
+      <CreatedTimestamp>2013-04-13.19:52:29</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-07.15:20:17</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="253" parent="23" name="XREF_VENDORS">
+      <ObjectId>76628</ObjectId>
+      <CreatedTimestamp>2013-04-13.19:52:29</CreatedTimestamp>
+      <ModifiedTimestamp>2014-12-31.10:05:16</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="254" parent="23" name="attrep_apply_exceptions">
+      <ObjectId>78533</ObjectId>
+      <CreatedTimestamp>2013-04-13.19:53:26</CreatedTimestamp>
+      <ModifiedTimestamp>2013-08-29.11:50:53</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <column id="255" parent="249" name="SOURCE_PART_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="256" parent="249" name="VENDOR_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="257" parent="249" name="PART_NUMBER">
+      <Position>3</Position>
+      <DataType>VARCHAR2(48 char)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="258" parent="249" name="TYPE_ID">
+      <Position>4</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="259" parent="249" name="SOURCE">
+      <Position>5</Position>
+      <DataType>VARCHAR2(30 char)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="260" parent="249" name="NOTE">
+      <Position>6</Position>
+      <DataType>VARCHAR2(1000 char)|0</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="261" parent="249" name="CREATE_USER">
+      <Position>7</Position>
+      <DataType>VARCHAR2(32 char)|0</DataType>
+      <DefaultExpression>USER</DefaultExpression>
+    </column>
+    <column id="262" parent="249" name="CREATE_TIME">
+      <Position>8</Position>
+      <DataType>DATE|0</DataType>
+      <DefaultExpression>SYSDATE</DefaultExpression>
+    </column>
+    <column id="263" parent="249" name="CHANGE_USER">
+      <Position>9</Position>
+      <DataType>VARCHAR2(32 char)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>USER </DefaultExpression>
+    </column>
+    <column id="264" parent="249" name="CHANGE_TIME">
+      <Position>10</Position>
+      <DataType>DATE|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>SYSDATE </DefaultExpression>
+    </column>
+    <column id="265" parent="249" name="SOURCEDB_COMMIT_TIMESTAMP">
+      <Position>11</Position>
+      <DataType>TIMESTAMP(7)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>to_date(&apos;1858-11-17&apos;, &apos;yyyy-mm-dd&apos;) </DefaultExpression>
+    </column>
+    <index id="266" parent="249" name="XREF_LINKS_PK">
+      <ObjectId>79854</ObjectId>
+      <CreatedTimestamp>2013-04-13.21:49:43</CreatedTimestamp>
+      <ModifiedTimestamp>2014-12-31.10:05:14</ModifiedTimestamp>
+      <TablespaceName>LANDING_INDX</TablespaceName>
+      <ColNames>SOURCE_PART_ID
+VENDOR_ID
+PART_NUMBER</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="267" parent="249" name="IX_XREF_LINKS0">
+      <ObjectId>79853</ObjectId>
+      <CreatedTimestamp>2013-04-13.21:49:40</CreatedTimestamp>
+      <ModifiedTimestamp>2014-12-31.10:05:14</ModifiedTimestamp>
+      <TablespaceName>LANDING_DATA</TablespaceName>
+      <ColNames>SOURCE_PART_ID</ColNames>
+    </index>
+    <index id="268" parent="249" name="XREF_LINKS0">
+      <ObjectId>79852</ObjectId>
+      <CreatedTimestamp>2013-04-13.21:49:37</CreatedTimestamp>
+      <ModifiedTimestamp>2014-12-31.10:05:14</ModifiedTimestamp>
+      <TablespaceName>LANDING_DATA</TablespaceName>
+      <ColNames>PART_NUMBER
+SOURCE_PART_ID
+TYPE_ID</ColNames>
+    </index>
+    <index id="269" parent="249" name="PART_NUMBER">
+      <ObjectId>79851</ObjectId>
+      <CreatedTimestamp>2013-04-13.21:49:35</CreatedTimestamp>
+      <ModifiedTimestamp>2014-12-31.10:05:14</ModifiedTimestamp>
+      <TablespaceName>LANDING_DATA</TablespaceName>
+      <ColNames>PART_NUMBER</ColNames>
+    </index>
+    <index id="270" parent="249" name="IX_XREF_LINKS">
+      <ObjectId>79850</ObjectId>
+      <CreatedTimestamp>2013-04-13.21:49:02</CreatedTimestamp>
+      <ModifiedTimestamp>2014-12-31.10:05:14</ModifiedTimestamp>
+      <TablespaceName>LANDING_DATA</TablespaceName>
+      <ColNames>TYPE_ID</ColNames>
+    </index>
+    <index id="271" parent="249" name="IX_XREF_LINKS1">
+      <ObjectId>79849</ObjectId>
+      <CreatedTimestamp>2013-04-13.21:48:59</CreatedTimestamp>
+      <ModifiedTimestamp>2014-12-31.10:05:14</ModifiedTimestamp>
+      <TablespaceName>LANDING_DATA</TablespaceName>
+      <ColNames>CREATE_TIME</ColNames>
+    </index>
+    <index id="272" parent="249" name="IX_XREF_LINKS2">
+      <ObjectId>79848</ObjectId>
+      <CreatedTimestamp>2013-04-13.21:48:57</CreatedTimestamp>
+      <ModifiedTimestamp>2014-12-31.10:05:14</ModifiedTimestamp>
+      <TablespaceName>LANDING_DATA</TablespaceName>
+      <ColNames>CHANGE_TIME</ColNames>
+    </index>
+    <key id="273" parent="249" name="XREF_LINKS_PK">
+      <ModifiedTimestamp>2013-04-14.01:41:14</ModifiedTimestamp>
+      <ColNames>SOURCE_PART_ID
+VENDOR_ID
+PART_NUMBER</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>XREF_LINKS_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="274" parent="250" name="PART_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="275" parent="250" name="VENDOR_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="276" parent="250" name="SERIES_ID">
+      <Position>3</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>(0) </DefaultExpression>
+    </column>
+    <column id="277" parent="250" name="PART_NUMBER">
+      <Position>4</Position>
+      <DataType>VARCHAR2(48 char)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="278" parent="250" name="SOURCEDB_COMMIT_TIMESTAMP">
+      <Position>5</Position>
+      <DataType>TIMESTAMP(7)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>to_date(&apos;1858-11-17&apos;, &apos;yyyy-mm-dd&apos;) </DefaultExpression>
+    </column>
+    <index id="279" parent="250" name="XREF_PARTS_PK">
+      <ObjectId>79857</ObjectId>
+      <CreatedTimestamp>2013-04-13.21:49:50</CreatedTimestamp>
+      <ModifiedTimestamp>2014-12-31.10:05:14</ModifiedTimestamp>
+      <TablespaceName>LANDING_INDX</TablespaceName>
+      <ColNames>VENDOR_ID
+PART_NUMBER</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="280" parent="250" name="XREF_PARTS1">
+      <ObjectId>79855</ObjectId>
+      <CreatedTimestamp>2013-04-13.21:49:45</CreatedTimestamp>
+      <ModifiedTimestamp>2014-12-31.10:05:14</ModifiedTimestamp>
+      <TablespaceName>LANDING_DATA</TablespaceName>
+      <ColNames>PART_ID
+VENDOR_ID
+PART_NUMBER</ColNames>
+    </index>
+    <index id="281" parent="250" name="IX_XREF_PARTS">
+      <ObjectId>79856</ObjectId>
+      <CreatedTimestamp>2013-04-13.21:49:48</CreatedTimestamp>
+      <ModifiedTimestamp>2014-12-31.10:05:14</ModifiedTimestamp>
+      <TablespaceName>LANDING_DATA</TablespaceName>
+      <ColNames>PART_ID</ColNames>
+    </index>
+    <key id="282" parent="250" name="XREF_PARTS_PK">
+      <ModifiedTimestamp>2013-04-14.01:18:26</ModifiedTimestamp>
+      <ColNames>VENDOR_ID
+PART_NUMBER</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>XREF_PARTS_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="283" parent="251" name="SERIES_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="284" parent="251" name="VENDOR_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="285" parent="251" name="SERIES_NAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(48 char)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="286" parent="251" name="SOURCEDB_COMMIT_TIMESTAMP">
+      <Position>4</Position>
+      <DataType>TIMESTAMP(7)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>to_date(&apos;1858-11-17&apos;, &apos;yyyy-mm-dd&apos;) </DefaultExpression>
+    </column>
+    <index id="287" parent="251" name="XREF_SERIES_PK">
+      <ObjectId>79858</ObjectId>
+      <CreatedTimestamp>2013-04-13.21:49:51</CreatedTimestamp>
+      <ModifiedTimestamp>2014-12-31.10:05:15</ModifiedTimestamp>
+      <TablespaceName>LANDING_INDX</TablespaceName>
+      <ColNames>VENDOR_ID
+SERIES_NAME</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="288" parent="251" name="XREF_SERIES_PK">
+      <ModifiedTimestamp>2013-04-14.01:41:14</ModifiedTimestamp>
+      <ColNames>VENDOR_ID
+SERIES_NAME</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>XREF_SERIES_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="289" parent="252" name="TYPE_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="290" parent="252" name="DESCRIPTION">
+      <Position>2</Position>
+      <DataType>VARCHAR2(64 char)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="291" parent="252" name="SOURCEDB_COMMIT_TIMESTAMP">
+      <Position>3</Position>
+      <DataType>TIMESTAMP(7)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>to_date(&apos;1858-11-17&apos;, &apos;yyyy-mm-dd&apos;) </DefaultExpression>
+    </column>
+    <index id="292" parent="252" name="XREF_RELATIONS_PK">
+      <ObjectId>79859</ObjectId>
+      <CreatedTimestamp>2013-04-13.21:49:54</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-07.15:20:17</ModifiedTimestamp>
+      <TablespaceName>LANDING_INDX</TablespaceName>
+      <ColNames>TYPE_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="293" parent="252" name="IX_XREF_TYPES">
+      <ObjectId>79860</ObjectId>
+      <CreatedTimestamp>2013-04-13.21:49:55</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-07.15:20:17</ModifiedTimestamp>
+      <TablespaceName>LANDING_INDX</TablespaceName>
+      <ColNames>DESCRIPTION</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="294" parent="252" name="XREF_RELATIONS_PK">
+      <ModifiedTimestamp>2013-04-14.01:20:36</ModifiedTimestamp>
+      <ColNames>TYPE_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>XREF_RELATIONS_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="295" parent="252" name="IX_XREF_TYPES">
+      <ModifiedTimestamp>2013-04-14.01:20:36</ModifiedTimestamp>
+      <ColNames>DESCRIPTION</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>IX_XREF_TYPES</UnderlyingIndexName>
+    </key>
+    <column id="296" parent="253" name="VENDOR_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="297" parent="253" name="VENDOR_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(128 char)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="298" parent="253" name="SOURCEDB_COMMIT_TIMESTAMP">
+      <Position>3</Position>
+      <DataType>TIMESTAMP(7)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>to_date(&apos;1858-11-17&apos;, &apos;yyyy-mm-dd&apos;) </DefaultExpression>
+    </column>
+    <index id="299" parent="253" name="XREF_VENDORS_PK">
+      <ObjectId>79861</ObjectId>
+      <CreatedTimestamp>2013-04-13.21:49:55</CreatedTimestamp>
+      <ModifiedTimestamp>2014-12-31.10:05:16</ModifiedTimestamp>
+      <TablespaceName>LANDING_INDX</TablespaceName>
+      <ColNames>VENDOR_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="300" parent="253" name="XREF_VENDORS_PK">
+      <ModifiedTimestamp>2013-04-13.23:17:41</ModifiedTimestamp>
+      <ColNames>VENDOR_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>XREF_VENDORS_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="301" parent="254" name="TASK_NAME">
+      <Position>1</Position>
+      <DataType>NVARCHAR2(128)|0</DataType>
+    </column>
+    <column id="302" parent="254" name="TABLE_OWNER">
+      <Position>2</Position>
+      <DataType>NVARCHAR2(128)|0</DataType>
+    </column>
+    <column id="303" parent="254" name="TABLE_NAME">
+      <Position>3</Position>
+      <DataType>NVARCHAR2(128)|0</DataType>
+    </column>
+    <column id="304" parent="254" name="ERROR_TIME">
+      <Position>4</Position>
+      <DataType>TIMESTAMP(6)|0</DataType>
+    </column>
+    <column id="305" parent="254" name="STATEMENT">
+      <Position>5</Position>
+      <DataType>CLOB|0</DataType>
+    </column>
+    <column id="306" parent="254" name="ERROR">
+      <Position>6</Position>
+      <DataType>CLOB|0</DataType>
+    </column>
+  </database-model>
+</dataSource>
