@@ -3,4 +3,4 @@ package chapter1
 
 // note there is no public. public is default access modifier.
 
-class Person(val name: String)
+class Person (val name:String, var isMarried: Boolean)
